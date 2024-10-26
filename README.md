@@ -9,8 +9,11 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Algorithm
 1.k cluster centroids randomly from the dataset.
+
 2.Assign each customer to the nearest centroid based on a distance measure (e.g., Euclidean distance).
+
 3.Update each centroid to the mean position of all customers assigned to it.
+
 4.Repeat steps 2 and 3 until centroids no longer change significantly, then use the resulting clusters to segment the customers. 
  
 
